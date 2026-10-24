@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/reportix-composer-core",
+  "packageVersion": "0.7.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/reportix-composer-core",
+  "usageRepository": "https://github.com/x12i-sdk/reportix-composer-core",
+  "sourceRepository": "https://github.com/x12i/reportix-composer",
+  "sourceCommit": "4e39273cff7b1b643da0b528dae7d8209885290c",
+  "sourcePackageDirectory": "packages/core",
+  "example": {
+    "title": "Render local Markdown with a bundled report template",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T14:48:01.478323+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "a6e7a4262747be2d40a2f7c22bc6b838bc9aa6a66339d66164ab189d3dcef01e",
+    "manifestSha256": "575446ad84da4638fa9ea3139c012451d40bb4aee5ddbb10e65070c28f62d7d9"
+  },
+  "validationFiles": {
+    "src/index.mjs": "a6e7a4262747be2d40a2f7c22bc6b838bc9aa6a66339d66164ab189d3dcef01e"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "reportix-composer-core-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/reportix-composer-core: render local markdown with a bundled report template.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/reportix-composer-core": "0.7.0",
+    "@x12i/reportix-composer-templates": "0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/reportix-composer-core.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/reportix-composer-core",
+  "overrides": {
+    "@x12i/rendrix": "4.4.0"
+  }
+}
